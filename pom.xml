@@ -68,6 +68,14 @@
             <scope>test</scope>
         </dependency>
 
+		<!-- Dynamo DB-->
+		<dependency>
+    		<groupId>com.amazonaws</groupId>
+    		<artifactId>aws-java-sdk-dynamodb</artifactId>
+    		<version>1.12.698</version>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>
