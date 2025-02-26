@@ -1,5 +1,6 @@
 package com.brightkut.springboot_serverless;
 
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
@@ -12,6 +13,7 @@ import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper;
 @Configuration
 public class DynamoDBConfig {
 
+    @Bean
     public DynamoDBMapper dynamoDBMapper(){
         return new DynamoDBMapper(buiAmazonDynamoDB());
     }
