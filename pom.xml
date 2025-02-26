@@ -52,6 +52,7 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!-- AWS lambda required-->
 		<dependency>
     		<groupId>com.amazonaws.serverless</groupId>
     		<artifactId>aws-serverless-java-container-springboot3</artifactId>
